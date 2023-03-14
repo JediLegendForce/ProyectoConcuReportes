@@ -1,0 +1,1002 @@
+[
+  {
+    "username": "lpailin0",
+    "car_id": "907-dd-22",
+    "price": "$9,666.70",
+    "vin": "3D73Y4EL2BG728925",
+    "buyer_first_name": "Lindsay",
+    "buyer_last_name": "Pailin",
+    "buyer_id": "680-09-5514",
+    "division_id": 4
+  },
+  {
+    "username": "amacari1",
+    "car_id": "769-hd-68",
+    "price": "$29,580.36",
+    "vin": "JA32U2FU2DU146156",
+    "buyer_first_name": "Astrix",
+    "buyer_last_name": "Macari",
+    "buyer_id": "444-97-8707",
+    "division_id": 4
+  },
+  {
+    "username": "mpenwarden2",
+    "car_id": "521-ms-64",
+    "price": "$14,172.83",
+    "vin": "JN8AZ2NC9E9574760",
+    "buyer_first_name": "Marlowe",
+    "buyer_last_name": "Penwarden",
+    "buyer_id": "196-85-4829",
+    "division_id": 4
+  },
+  {
+    "username": "whuddart3",
+    "car_id": "366-ds-60",
+    "price": "$21,058.35",
+    "vin": "JN8AZ2NC8E9693559",
+    "buyer_first_name": "Wandis",
+    "buyer_last_name": "Huddart",
+    "buyer_id": "783-56-7048",
+    "division_id": 4
+  },
+  {
+    "username": "rboltwood4",
+    "car_id": "904-ve-89",
+    "price": "$7,117.63",
+    "vin": "1FMEU5DE4AU485341",
+    "buyer_first_name": "Ryan",
+    "buyer_last_name": "Boltwood",
+    "buyer_id": "651-59-9362",
+    "division_id": 4
+  },
+  {
+    "username": "rtrapp5",
+    "car_id": "691-xh-58",
+    "price": "$9,775.42",
+    "vin": "5N1AZ2MG6FN035047",
+    "buyer_first_name": "Roddie",
+    "buyer_last_name": "Trapp",
+    "buyer_id": "328-64-2942",
+    "division_id": 4
+  },
+  {
+    "username": "hdrewery6",
+    "car_id": "128-vc-46",
+    "price": "$16,305.47",
+    "vin": "WBXPA734X5W388834",
+    "buyer_first_name": "Hunfredo",
+    "buyer_last_name": "Drewery",
+    "buyer_id": "128-97-0936",
+    "division_id": 4
+  },
+  {
+    "username": "wbeeze7",
+    "car_id": "312-bl-07",
+    "price": "$18,597.59",
+    "vin": "1GYS3JEF7CR161216",
+    "buyer_first_name": "Wynny",
+    "buyer_last_name": "Beeze",
+    "buyer_id": "718-49-5616",
+    "division_id": 4
+  },
+  {
+    "username": "lalfonsini8",
+    "car_id": "570-gv-59",
+    "price": "$28,172.75",
+    "vin": "2T2BK1BA5FC034766",
+    "buyer_first_name": "Lotty",
+    "buyer_last_name": "Alfonsini",
+    "buyer_id": "543-47-5672",
+    "division_id": 4
+  },
+  {
+    "username": "mtanzig9",
+    "car_id": "694-jp-48",
+    "price": "$26,332.09",
+    "vin": "WBA3A5C51FP566213",
+    "buyer_first_name": "Mendel",
+    "buyer_last_name": "Tanzig",
+    "buyer_id": "314-61-2433",
+    "division_id": 4
+  },
+  {
+    "username": "mgorettia",
+    "car_id": "834-tf-34",
+    "price": "$29,659.69",
+    "vin": "WDDUG7JBXEA298229",
+    "buyer_first_name": "Mirella",
+    "buyer_last_name": "Goretti",
+    "buyer_id": "481-98-2647",
+    "division_id": 4
+  },
+  {
+    "username": "flowdyaneb",
+    "car_id": "188-he-03",
+    "price": "$18,020.82",
+    "vin": "2T1BURHE5FC308698",
+    "buyer_first_name": "Fredia",
+    "buyer_last_name": "Lowdyane",
+    "buyer_id": "711-58-5569",
+    "division_id": -5
+  },
+  {
+    "username": "qangelic",
+    "car_id": "663-mw-68",
+    "price": "$7,740.67",
+    "vin": "WUAGL78E26A854038",
+    "buyer_first_name": "Quintus",
+    "buyer_last_name": "Angeli",
+    "buyer_id": "154-05-9869",
+    "division_id": 4
+  },
+  {
+    "username": "dclaeskensd",
+    "car_id": "355-jf-32",
+    "price": "$26,316.09",
+    "vin": "WDBSK7BA6CF019444",
+    "buyer_first_name": "Darb",
+    "buyer_last_name": "Claeskens",
+    "buyer_id": "103-36-8366",
+    "division_id": 4
+  },
+  {
+    "username": "cattacke",
+    "car_id": "702-gn-24",
+    "price": "$23,097.50",
+    "vin": "JN1CV6AP6BM553215",
+    "buyer_first_name": "Catarina",
+    "buyer_last_name": "Attack",
+    "buyer_id": "755-11-3857",
+    "division_id": 4
+  },
+  {
+    "username": "ntuffellf",
+    "car_id": "642-kr-04",
+    "price": "$14,025.56",
+    "vin": "WAUVFAFR2BA167728",
+    "buyer_first_name": "Nicolina",
+    "buyer_last_name": "Tuffell",
+    "buyer_id": "148-14-2986",
+    "division_id": 4
+  },
+  {
+    "username": "ubwyeg",
+    "car_id": "664-jo-00",
+    "price": "$24,022.69",
+    "vin": "WP1AA2A24DL348736",
+    "buyer_first_name": "Ulla",
+    "buyer_last_name": "Bwye",
+    "buyer_id": "524-33-2790",
+    "division_id": 4
+  },
+  {
+    "username": "hsnookh",
+    "car_id": "960-em-53",
+    "price": "$17,203.43",
+    "vin": "5N1AL0MM4EC409659",
+    "buyer_first_name": "Hardy",
+    "buyer_last_name": "Snook",
+    "buyer_id": "726-59-0024",
+    "division_id": 4
+  },
+  {
+    "username": "sfreelandi",
+    "car_id": "261-du-12",
+    "price": "$24,644.57",
+    "vin": "1FADP5CU3EL167974",
+    "buyer_first_name": "Shela",
+    "buyer_last_name": "Freeland",
+    "buyer_id": "305-81-5999",
+    "division_id": 4
+  },
+  {
+    "username": "lrobardj",
+    "car_id": "517-cu-92",
+    "price": "$23,224.30",
+    "vin": "WBA3G7C55FK475890",
+    "buyer_first_name": "Lonee",
+    "buyer_last_name": "Robard",
+    "buyer_id": "553-44-7074",
+    "division_id": 4
+  },
+  {
+    "username": "mbauldryk",
+    "car_id": "261-ek-83",
+    "price": "$29,747.86",
+    "vin": "4JGDF2EE4DA306792",
+    "buyer_first_name": "Myrah",
+    "buyer_last_name": "Bauldry",
+    "buyer_id": "215-74-4621",
+    "division_id": 4
+  },
+  {
+    "username": "gshoutel",
+    "car_id": "185-an-40",
+    "price": "$13,774.69",
+    "vin": "3C63DRKL3CG077496",
+    "buyer_first_name": "Georg",
+    "buyer_last_name": "Shoute",
+    "buyer_id": "467-94-6061",
+    "division_id": 4
+  },
+  {
+    "username": "mcaccavarim",
+    "car_id": "732-ol-92",
+    "price": "$7,650.13",
+    "vin": "1D7RB1CP4AS307831",
+    "buyer_first_name": "Mariellen",
+    "buyer_last_name": "Caccavari",
+    "buyer_id": "594-17-4584",
+    "division_id": 4
+  },
+  {
+    "username": "tfowelln",
+    "car_id": "329-km-73",
+    "price": "$17,966.03",
+    "vin": "WBXPC93469W528180",
+    "buyer_first_name": "Tasia",
+    "buyer_last_name": "Fowell",
+    "buyer_id": "865-68-6275",
+    "division_id": 4
+  },
+  {
+    "username": "mmograo",
+    "car_id": "400-de-73",
+    "price": "$27,497.99",
+    "vin": "5N1AZ2MG1FN534788",
+    "buyer_first_name": "Mei",
+    "buyer_last_name": "Mogra",
+    "buyer_id": "133-48-7455",
+    "division_id": 4
+  },
+  {
+    "username": "thadwickp",
+    "car_id": "007-qb-47",
+    "price": "$18,497.06",
+    "vin": "3C63D3ML8CG882002",
+    "buyer_first_name": "Theadora",
+    "buyer_last_name": "Hadwick",
+    "buyer_id": "713-78-0971",
+    "division_id": 4
+  },
+  {
+    "username": "mfakeleyq",
+    "car_id": "679-tb-45",
+    "price": "$19,197.61",
+    "vin": "1HGCR2F35EA723720",
+    "buyer_first_name": "Margarette",
+    "buyer_last_name": "Fakeley",
+    "buyer_id": "655-53-9749",
+    "division_id": 4
+  },
+  {
+    "username": "hdelguar",
+    "car_id": "293-kn-98",
+    "price": "$23,461.40",
+    "vin": "19XFA1F38BE623374",
+    "buyer_first_name": "Haley",
+    "buyer_last_name": "Delgua",
+    "buyer_id": "774-85-9940",
+    "division_id": 4
+  },
+  {
+    "username": "avardens",
+    "car_id": "982-hl-73",
+    "price": "$14,942.44",
+    "vin": "SCBLE47K28C119226",
+    "buyer_first_name": "Anabel",
+    "buyer_last_name": "Varden",
+    "buyer_id": "714-06-8121",
+    "division_id": 4
+  },
+  {
+    "username": "csimonsont",
+    "car_id": "411-jp-59",
+    "price": "$19,532.72",
+    "vin": "1C3BCBGG3DN988595",
+    "buyer_first_name": "Corry",
+    "buyer_last_name": "Simonson",
+    "buyer_id": "293-15-7371",
+    "division_id": 4
+  },
+  {
+    "username": "cpaleku",
+    "car_id": "976-tp-89",
+    "price": "$8,637.20",
+    "vin": "KMHTC6AD9EU033423",
+    "buyer_first_name": "Charis",
+    "buyer_last_name": "Palek",
+    "buyer_id": "538-83-9176",
+    "division_id": 4
+  },
+  {
+    "username": "rfairestv",
+    "car_id": "381-ok-48",
+    "price": "$17,481.79",
+    "vin": "1FTEX1C89AK646603",
+    "buyer_first_name": "Raul",
+    "buyer_last_name": "Fairest",
+    "buyer_id": "117-22-1525",
+    "division_id": 4
+  },
+  {
+    "username": "adonaherw",
+    "car_id": "854-jg-19",
+    "price": "$29,648.64",
+    "vin": "KMHTC6AD7CU920287",
+    "buyer_first_name": "Abrahan",
+    "buyer_last_name": "Donaher",
+    "buyer_id": "531-33-5778",
+    "division_id": 4
+  },
+  {
+    "username": "cwinslettx",
+    "car_id": "364-it-74",
+    "price": "$29,512.47",
+    "vin": "WBSBL93406P715386",
+    "buyer_first_name": "Cori",
+    "buyer_last_name": "Winslett",
+    "buyer_id": "117-69-9868",
+    "division_id": 4
+  },
+  {
+    "username": "olevetty",
+    "car_id": "037-mn-78",
+    "price": "$26,319.10",
+    "vin": "TRUSX28N821870047",
+    "buyer_first_name": "Orelie",
+    "buyer_last_name": "Levett",
+    "buyer_id": "508-75-2431",
+    "division_id": 4
+  },
+  {
+    "username": "wpoorz",
+    "car_id": "940-yj-75",
+    "price": "$19,081.05",
+    "vin": "SCBFU7ZAXFC496292",
+    "buyer_first_name": "Wakefield",
+    "buyer_last_name": "Poor",
+    "buyer_id": "199-53-9381",
+    "division_id": 4
+  },
+  {
+    "username": "hlavers10",
+    "car_id": "211-rw-21",
+    "price": "$14,400.55",
+    "vin": "WAUUFAFH4BN695217",
+    "buyer_first_name": "Hadrian",
+    "buyer_last_name": "Lavers",
+    "buyer_id": "281-85-4973",
+    "division_id": 4
+  },
+  {
+    "username": "ssherman11",
+    "car_id": "368-lf-02",
+    "price": "$29,550.37",
+    "vin": "WBASN4C55BC284961",
+    "buyer_first_name": "Siffre",
+    "buyer_last_name": "Sherman",
+    "buyer_id": "222-69-3555",
+    "division_id": 4
+  },
+  {
+    "username": "fredbourn12",
+    "car_id": "050-ok-48",
+    "price": "$10,987.02",
+    "vin": "1FTWW3B52AE472446",
+    "buyer_first_name": "Friedrich",
+    "buyer_last_name": "Redbourn",
+    "buyer_id": "134-16-5246",
+    "division_id": 4
+  },
+  {
+    "username": "aesberger13",
+    "car_id": "396-ma-79",
+    "price": "$20,136.57",
+    "vin": "1C3CC5FB3AN582422",
+    "buyer_first_name": "Amelia",
+    "buyer_last_name": "Esberger",
+    "buyer_id": "292-92-2207",
+    "division_id": 4
+  },
+  {
+    "username": "kdrake14",
+    "car_id": "250-gx-81",
+    "price": "$15,136.74",
+    "vin": "WAUVC68E62A659971",
+    "buyer_first_name": "Kelbee",
+    "buyer_last_name": "Drake",
+    "buyer_id": "508-68-5087",
+    "division_id": 4
+  },
+  {
+    "username": "dharcase15",
+    "car_id": "735-lm-26",
+    "price": "$15,212.19",
+    "vin": "WAUVT68E42A507350",
+    "buyer_first_name": "Durant",
+    "buyer_last_name": "Harcase",
+    "buyer_id": "652-60-9287",
+    "division_id": 4
+  },
+  {
+    "username": "twoller16",
+    "car_id": "968-ml-33",
+    "price": "$9,017.22",
+    "vin": "WBAUC73529V076762",
+    "buyer_first_name": "Tallie",
+    "buyer_last_name": "Woller",
+    "buyer_id": "728-44-9412",
+    "division_id": 4
+  },
+  {
+    "username": "jdunseith17",
+    "car_id": "604-ar-47",
+    "price": "$29,372.90",
+    "vin": "WVWED7AJ5BW371164",
+    "buyer_first_name": "Jeramie",
+    "buyer_last_name": "Dunseith",
+    "buyer_id": "151-08-9278",
+    "division_id": 4
+  },
+  {
+    "username": "gblackwell18",
+    "car_id": "207-kz-10",
+    "price": "$27,617.65",
+    "vin": "KNAFU6A28D5949402",
+    "buyer_first_name": "Godfree",
+    "buyer_last_name": "Blackwell",
+    "buyer_id": "556-12-4193",
+    "division_id": 4
+  },
+  {
+    "username": "mheardman19",
+    "car_id": "266-uy-18",
+    "price": "$18,964.50",
+    "vin": "JH4CU4F49CC857387",
+    "buyer_first_name": "Matteo",
+    "buyer_last_name": "Heardman",
+    "buyer_id": "409-39-1386",
+    "division_id": 4
+  },
+  {
+    "username": "obewfield1a",
+    "car_id": "810-su-18",
+    "price": "$28,500.03",
+    "vin": "2T1BU4EE2DC244382",
+    "buyer_first_name": "Otis",
+    "buyer_last_name": "Bewfield",
+    "buyer_id": "848-25-5373",
+    "division_id": 4
+  },
+  {
+    "username": "gtidder1b",
+    "car_id": "292-jv-62",
+    "price": "$10,619.85",
+    "vin": "WBAPH7C50BE600110",
+    "buyer_first_name": "Gloriane",
+    "buyer_last_name": "Tidder",
+    "buyer_id": "340-54-5064",
+    "division_id": 4
+  },
+  {
+    "username": "hrosborough1c",
+    "car_id": "138-tg-19",
+    "price": "$11,182.62",
+    "vin": "JN8AZ2KR0ET302903",
+    "buyer_first_name": "Hermann",
+    "buyer_last_name": "Rosborough",
+    "buyer_id": "635-52-6683",
+    "division_id": 4
+  },
+  {
+    "username": "mhanley1d",
+    "car_id": "583-fv-85",
+    "price": "$9,978.68",
+    "vin": "5UXFB33592L185498",
+    "buyer_first_name": "Midge",
+    "buyer_last_name": "Hanley",
+    "buyer_id": "543-15-6690",
+    "division_id": 4
+  },
+  {
+    "username": "ltummond1e",
+    "car_id": "925-hf-12",
+    "price": "$7,671.27",
+    "vin": "2G4WE537951019817",
+    "buyer_first_name": "Loree",
+    "buyer_last_name": "Tummond",
+    "buyer_id": "608-86-2777",
+    "division_id": 4
+  },
+  {
+    "username": "idickson1f",
+    "car_id": "664-zn-80",
+    "price": "$17,844.90",
+    "vin": "WBALW7C52CC482272",
+    "buyer_first_name": "Irwinn",
+    "buyer_last_name": "Dickson",
+    "buyer_id": "485-47-2622",
+    "division_id": 4
+  },
+  {
+    "username": "fpomphrett1g",
+    "car_id": "695-wa-43",
+    "price": "$15,571.22",
+    "vin": "WAUHFBFL0BN118048",
+    "buyer_first_name": "Fulvia",
+    "buyer_last_name": "Pomphrett",
+    "buyer_id": "611-63-0447",
+    "division_id": 4
+  },
+  {
+    "username": "tmainz1h",
+    "car_id": "376-ad-62",
+    "price": "$19,004.21",
+    "vin": "1G6AC1R36F0635217",
+    "buyer_first_name": "Tome",
+    "buyer_last_name": "Mainz",
+    "buyer_id": "760-11-5620",
+    "division_id": 4
+  },
+  {
+    "username": "gvosse1i",
+    "car_id": "290-mw-39",
+    "price": "$11,054.19",
+    "vin": "2HNYD18623H985286",
+    "buyer_first_name": "Gil",
+    "buyer_last_name": "Vosse",
+    "buyer_id": "762-91-0750",
+    "division_id": 4
+  },
+  {
+    "username": "akunisch1j",
+    "car_id": "550-pm-82",
+    "price": "$26,731.30",
+    "vin": "4T1BF1FK3EU540637",
+    "buyer_first_name": "Aristotle",
+    "buyer_last_name": "Kunisch",
+    "buyer_id": "898-45-0023",
+    "division_id": 4
+  },
+  {
+    "username": "mdunne1k",
+    "car_id": "704-fp-67",
+    "price": "$29,288.38",
+    "vin": "WAUKF78EX8A784626",
+    "buyer_first_name": "Mae",
+    "buyer_last_name": "Dunne",
+    "buyer_id": "246-18-7188",
+    "division_id": 4
+  },
+  {
+    "username": "atorbeck1l",
+    "car_id": "958-bu-20",
+    "price": "$18,645.94",
+    "vin": "1G6EC12922B567965",
+    "buyer_first_name": "Aurora",
+    "buyer_last_name": "Torbeck",
+    "buyer_id": "690-21-2072",
+    "division_id": 4
+  },
+  {
+    "username": "egraybeal1m",
+    "car_id": "309-dp-58",
+    "price": "$24,109.88",
+    "vin": "WBAKX6C58CC210151",
+    "buyer_first_name": "Etti",
+    "buyer_last_name": "Graybeal",
+    "buyer_id": "268-51-8789",
+    "division_id": 4
+  },
+  {
+    "username": "sflowitt1n",
+    "car_id": "887-dn-93",
+    "price": "$21,557.20",
+    "vin": "KNAFU6A27D5935071",
+    "buyer_first_name": "Sharona",
+    "buyer_last_name": "Flowitt",
+    "buyer_id": "464-75-9686",
+    "division_id": 4
+  },
+  {
+    "username": "statam1o",
+    "car_id": "832-ik-74",
+    "price": "$20,949.59",
+    "vin": "KNDMA5C19F6470453",
+    "buyer_first_name": "Silvain",
+    "buyer_last_name": "Tatam",
+    "buyer_id": "779-13-9619",
+    "division_id": 4
+  },
+  {
+    "username": "eaveling1p",
+    "car_id": "518-tq-76",
+    "price": "$10,037.26",
+    "vin": "1G6YV36A385793575",
+    "buyer_first_name": "Edithe",
+    "buyer_last_name": "Aveling",
+    "buyer_id": "353-48-5739",
+    "division_id": 4
+  },
+  {
+    "username": "swoolatt1q",
+    "car_id": "336-zw-88",
+    "price": "$16,853.37",
+    "vin": "WBAUC73539V588465",
+    "buyer_first_name": "Seana",
+    "buyer_last_name": "Woolatt",
+    "buyer_id": "188-53-9531",
+    "division_id": 4
+  },
+  {
+    "username": "dbuxy1r",
+    "car_id": "299-vp-37",
+    "price": "$11,065.75",
+    "vin": "1N4AA5APXCC012661",
+    "buyer_first_name": "Dulcea",
+    "buyer_last_name": "Buxy",
+    "buyer_id": "706-09-4566",
+    "division_id": 4
+  },
+  {
+    "username": "akeinrat1s",
+    "car_id": "610-bt-48",
+    "price": "$8,402.44",
+    "vin": "1C3CDFAA5FD909823",
+    "buyer_first_name": "Aggy",
+    "buyer_last_name": "Keinrat",
+    "buyer_id": "872-34-5995",
+    "division_id": 4
+  },
+  {
+    "username": "tripsher1t",
+    "car_id": "089-oo-10",
+    "price": "$16,616.42",
+    "vin": "2G4GP5EX4F9960557",
+    "buyer_first_name": "Trumann",
+    "buyer_last_name": "Ripsher",
+    "buyer_id": "443-35-5677",
+    "division_id": 4
+  },
+  {
+    "username": "ewoolf1u",
+    "car_id": "083-fu-85",
+    "price": "$15,106.17",
+    "vin": "JN1AJ0HP6CM134207",
+    "buyer_first_name": "Eleanora",
+    "buyer_last_name": "Woolf",
+    "buyer_id": "748-04-5815",
+    "division_id": 4
+  },
+  {
+    "username": "geverall1v",
+    "car_id": "750-iw-39",
+    "price": "$17,263.34",
+    "vin": "KMHEC4A43DA245604",
+    "buyer_first_name": "Gilles",
+    "buyer_last_name": "Everall",
+    "buyer_id": "498-55-8905",
+    "division_id": 4
+  },
+  {
+    "username": "mbaggaley1w",
+    "car_id": "482-oe-94",
+    "price": "$10,302.23",
+    "vin": "4T1BF1FK8EU846958",
+    "buyer_first_name": "Mateo",
+    "buyer_last_name": "Baggaley",
+    "buyer_id": "529-65-5360",
+    "division_id": 4
+  },
+  {
+    "username": "rlacase1x",
+    "car_id": "088-hd-14",
+    "price": "$17,557.60",
+    "vin": "WBAVM5C57DV560182",
+    "buyer_first_name": "Ronda",
+    "buyer_last_name": "Lacase",
+    "buyer_id": "710-06-4258",
+    "division_id": 4
+  },
+  {
+    "username": "kstruss1y",
+    "car_id": "753-or-05",
+    "price": "$17,629.78",
+    "vin": "19UUA9F74CA350092",
+    "buyer_first_name": "Karen",
+    "buyer_last_name": "Struss",
+    "buyer_id": "118-47-4546",
+    "division_id": 4
+  },
+  {
+    "username": "dferson1z",
+    "car_id": "969-eh-12",
+    "price": "$27,390.46",
+    "vin": "3D4PH9FG6BT086469",
+    "buyer_first_name": "Deanne",
+    "buyer_last_name": "Ferson",
+    "buyer_id": "383-71-6445",
+    "division_id": 4
+  },
+  {
+    "username": "aandrei20",
+    "car_id": "505-aa-98",
+    "price": "$12,874.91",
+    "vin": "1N6AA0ECXEN937921",
+    "buyer_first_name": "Abbie",
+    "buyer_last_name": "Andrei",
+    "buyer_id": "328-70-3841",
+    "division_id": 4
+  },
+  {
+    "username": "rtilliard21",
+    "car_id": "441-my-25",
+    "price": "$22,770.23",
+    "vin": "WAUFFBFL3CA608547",
+    "buyer_first_name": "Rusty",
+    "buyer_last_name": "Tilliard",
+    "buyer_id": "536-75-6778",
+    "division_id": 4
+  },
+  {
+    "username": "cvickress22",
+    "car_id": "091-zk-28",
+    "price": "$27,216.93",
+    "vin": "WDDGF4HB9DR908612",
+    "buyer_first_name": "Cristian",
+    "buyer_last_name": "Vickress",
+    "buyer_id": "167-79-9029",
+    "division_id": 4
+  },
+  {
+    "username": "jguite23",
+    "car_id": "071-vx-49",
+    "price": "$23,783.46",
+    "vin": "4T1BF1FK3CU944308",
+    "buyer_first_name": "Janice",
+    "buyer_last_name": "Guite",
+    "buyer_id": "693-91-6398",
+    "division_id": 4
+  },
+  {
+    "username": "srabley24",
+    "car_id": "095-yg-62",
+    "price": "$21,226.22",
+    "vin": "WBASP4C58AC575012",
+    "buyer_first_name": "Si",
+    "buyer_last_name": "Rabley",
+    "buyer_id": "484-93-2801",
+    "division_id": 4
+  },
+  {
+    "username": "serrichi25",
+    "car_id": "958-km-70",
+    "price": "$20,128.77",
+    "vin": "WBY2Z2C57EV692042",
+    "buyer_first_name": "Susanetta",
+    "buyer_last_name": "Errichi",
+    "buyer_id": "657-07-6415",
+    "division_id": 4
+  },
+  {
+    "username": "ilawrenz26",
+    "car_id": "858-jy-49",
+    "price": "$28,624.87",
+    "vin": "WBAUN7C52DV804079",
+    "buyer_first_name": "Iorgo",
+    "buyer_last_name": "Lawrenz",
+    "buyer_id": "226-10-4036",
+    "division_id": 4
+  },
+  {
+    "username": "kgibbons27",
+    "car_id": "841-sr-58",
+    "price": "$9,505.65",
+    "vin": "WAUVT68E42A347700",
+    "buyer_first_name": "Kele",
+    "buyer_last_name": "Gibbons",
+    "buyer_id": "652-71-5164",
+    "division_id": 4
+  },
+  {
+    "username": "mbligh28",
+    "car_id": "780-lk-67",
+    "price": "$16,485.40",
+    "vin": "1GYS4GEF8BR965006",
+    "buyer_first_name": "Minna",
+    "buyer_last_name": "Bligh",
+    "buyer_id": "280-17-1685",
+    "division_id": 4
+  },
+  {
+    "username": "atruswell29",
+    "car_id": "132-eb-05",
+    "price": "$16,342.52",
+    "vin": "1GYS4BEF7BR726050",
+    "buyer_first_name": "Al",
+    "buyer_last_name": "Truswell",
+    "buyer_id": "629-75-9335",
+    "division_id": 4
+  },
+  {
+    "username": "bgimson2a",
+    "car_id": "988-nj-66",
+    "price": "$24,280.72",
+    "vin": "3VWF17AT9FM191297",
+    "buyer_first_name": "Benny",
+    "buyer_last_name": "Gimson",
+    "buyer_id": "527-86-4385",
+    "division_id": 4
+  },
+  {
+    "username": "asobieski2b",
+    "car_id": "377-cc-27",
+    "price": "$22,949.68",
+    "vin": "WBAUP73558V400354",
+    "buyer_first_name": "Aymer",
+    "buyer_last_name": "Sobieski",
+    "buyer_id": "522-27-5811",
+    "division_id": 4
+  },
+  {
+    "username": "wkillerby2c",
+    "car_id": "101-jp-24",
+    "price": "$13,198.32",
+    "vin": "WA1DMAFP5EA611766",
+    "buyer_first_name": "Whitby",
+    "buyer_last_name": "Killerby",
+    "buyer_id": "285-66-7315",
+    "division_id": 4
+  },
+  {
+    "username": "ncouch2d",
+    "car_id": "775-sx-87",
+    "price": "$12,497.01",
+    "vin": "1G4HR54K644252640",
+    "buyer_first_name": "Neville",
+    "buyer_last_name": "Couch",
+    "buyer_id": "293-90-0167",
+    "division_id": 4
+  },
+  {
+    "username": "aalbany2e",
+    "car_id": "835-bd-23",
+    "price": "$17,407.73",
+    "vin": "WVGAV7AX1FW914964",
+    "buyer_first_name": "Aubrey",
+    "buyer_last_name": "Albany",
+    "buyer_id": "754-06-9310",
+    "division_id": 4
+  },
+  {
+    "username": "xgault2f",
+    "car_id": "491-ua-18",
+    "price": "$24,621.97",
+    "vin": "YV4960DL5A2161215",
+    "buyer_first_name": "Xylia",
+    "buyer_last_name": "Gault",
+    "buyer_id": "177-34-5974",
+    "division_id": 4
+  },
+  {
+    "username": "aoconnell2g",
+    "car_id": "137-oi-18",
+    "price": "$12,123.38",
+    "vin": "WAUUL98E77A119128",
+    "buyer_first_name": "Alric",
+    "buyer_last_name": "O'Connell",
+    "buyer_id": "609-66-8769",
+    "division_id": 4
+  },
+  {
+    "username": "msurcomb2h",
+    "car_id": "976-xk-94",
+    "price": "$18,248.93",
+    "vin": "1C4RDHDG8EC203628",
+    "buyer_first_name": "Michell",
+    "buyer_last_name": "Surcomb",
+    "buyer_id": "845-06-4486",
+    "division_id": 4
+  },
+  {
+    "username": "kkeers2i",
+    "car_id": "755-nx-20",
+    "price": "$7,966.97",
+    "vin": "19VDE1F77FE009039",
+    "buyer_first_name": "Kristel",
+    "buyer_last_name": "Keers",
+    "buyer_id": "120-80-3776",
+    "division_id": 4
+  },
+  {
+    "username": "dgumbrell2j",
+    "car_id": "226-vk-77",
+    "price": "$12,757.80",
+    "vin": "WBA3N9C56EK697354",
+    "buyer_first_name": "Dennie",
+    "buyer_last_name": "Gumbrell",
+    "buyer_id": "559-19-2586",
+    "division_id": 4
+  },
+  {
+    "username": "hdomingues2k",
+    "car_id": "502-dx-39",
+    "price": "$10,570.21",
+    "vin": "1G6DS8EV9A0935844",
+    "buyer_first_name": "Hatty",
+    "buyer_last_name": "Domingues",
+    "buyer_id": "463-30-8063",
+    "division_id": 4
+  },
+  {
+    "username": "agwynne2l",
+    "car_id": "903-oe-00",
+    "price": "$20,538.65",
+    "vin": "19UUA655X4A921987",
+    "buyer_first_name": "Agretha",
+    "buyer_last_name": "Gwynne",
+    "buyer_id": "529-83-1427",
+    "division_id": 4
+  },
+  {
+    "username": "aboulds2m",
+    "car_id": "932-ol-94",
+    "price": "$18,448.28",
+    "vin": "1G6DF8EG3A0237607",
+    "buyer_first_name": "Avrom",
+    "buyer_last_name": "Boulds",
+    "buyer_id": "378-89-1386",
+    "division_id": 4
+  },
+  {
+    "username": "fdulieu2n",
+    "car_id": "791-rb-99",
+    "price": "$7,611.08",
+    "vin": "1G4PP5SKXF4772072",
+    "buyer_first_name": "Free",
+    "buyer_last_name": "Dulieu",
+    "buyer_id": "805-38-7743",
+    "division_id": 4
+  },
+  {
+    "username": "jbille2o",
+    "car_id": "507-kf-66",
+    "price": "$20,648.39",
+    "vin": "WBA3T3C54FP367770",
+    "buyer_first_name": "Jessalyn",
+    "buyer_last_name": "Bille",
+    "buyer_id": "791-90-2145",
+    "division_id": 4
+  },
+  {
+    "username": "pmoxom2p",
+    "car_id": "165-qh-34",
+    "price": "$10,108.91",
+    "vin": "JN1CV6EK6CM352401",
+    "buyer_first_name": "Poul",
+    "buyer_last_name": "Moxom",
+    "buyer_id": "229-71-9408",
+    "division_id": 4
+  },
+  {
+    "username": "rteece2q",
+    "car_id": "634-hf-29",
+    "price": "$8,881.95",
+    "vin": "KL4CJGSB9EB524609",
+    "buyer_first_name": "Rolland",
+    "buyer_last_name": "Teece",
+    "buyer_id": "476-56-8443",
+    "division_id": 4
+  },
+  {
+    "username": "wmcphater2r",
+    "car_id": "604-ku-94",
+    "price": "$26,874.22",
+    "vin": "2D4JN1AG7BR463109",
+    "buyer_first_name": "Wolfy",
+    "buyer_last_name": "McPhater",
+    "buyer_id": "496-27-1045",
+    "division_id": 4
+  }
+]
