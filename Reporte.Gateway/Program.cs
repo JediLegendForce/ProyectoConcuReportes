@@ -32,5 +32,5 @@ app.MapRazorPages();
 */
 
 app.MapGet("/", () => "Hello World!");
-
+app.MapControllers();
 app.Run();
