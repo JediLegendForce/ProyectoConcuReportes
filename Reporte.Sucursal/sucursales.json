@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "country": "US",
+    "state": "North Carolina"
+  },
+  {
+    "id": 2,
+    "country": "US",
+    "state": "Ohio"
+  },
+  {
+    "id": 3,
+    "country": "US",
+    "state": "Louisiana"
+  },
+  {
+    "id": 4,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 5,
+    "country": "US",
+    "state": "New York"
+  },
+  {
+    "id": 6,
+    "country": "US",
+    "state": "Tennessee"
+  },
+  {
+    "id": 7,
+    "country": "US",
+    "state": "Nevada"
+  },
+  {
+    "id": 8,
+    "country": "US",
+    "state": "North Carolina"
+  },
+  {
+    "id": 9,
+    "country": "US",
+    "state": "Oregon"
+  },
+  {
+    "id": 10,
+    "country": "US",
+    "state": "Oregon"
+  },
+  {
+    "id": 11,
+    "country": "US",
+    "state": "Ohio"
+  },
+  {
+    "id": 12,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 13,
+    "country": "US",
+    "state": "Illinois"
+  },
+  {
+    "id": 14,
+    "country": "US",
+    "state": "Massachusetts"
+  },
+  {
+    "id": 15,
+    "country": "US",
+    "state": "Missouri"
+  },
+  {
+    "id": 16,
+    "country": "US",
+    "state": "Ohio"
+  },
+  {
+    "id": 17,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 18,
+    "country": "US",
+    "state": "Indiana"
+  },
+  {
+    "id": 19,
+    "country": "US",
+    "state": "Ohio"
+  },
+  {
+    "id": 20,
+    "country": "US",
+    "state": "Missouri"
+  },
+  {
+    "id": 21,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 22,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 23,
+    "country": "US",
+    "state": "Tennessee"
+  },
+  {
+    "id": 24,
+    "country": "US",
+    "state": "Michigan"
+  },
+  {
+    "id": 25,
+    "country": "US",
+    "state": "Wisconsin"
+  },
+  {
+    "id": 26,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 27,
+    "country": "US",
+    "state": "Ohio"
+  },
+  {
+    "id": 28,
+    "country": "US",
+    "state": "Alabama"
+  },
+  {
+    "id": 29,
+    "country": "US",
+    "state": "Florida"
+  },
+  {
+    "id": 30,
+    "country": "US",
+    "state": "Massachusetts"
+  },
+  {
+    "id": 31,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 32,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 33,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 34,
+    "country": "US",
+    "state": "Indiana"
+  },
+  {
+    "id": 35,
+    "country": "US",
+    "state": "Florida"
+  },
+  {
+    "id": 36,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 37,
+    "country": "US",
+    "state": "Connecticut"
+  },
+  {
+    "id": 38,
+    "country": "US",
+    "state": "Utah"
+  },
+  {
+    "id": 39,
+    "country": "US",
+    "state": "New York"
+  },
+  {
+    "id": 40,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 41,
+    "country": "US",
+    "state": "Minnesota"
+  },
+  {
+    "id": 42,
+    "country": "US",
+    "state": "Indiana"
+  },
+  {
+    "id": 43,
+    "country": "US",
+    "state": "Texas"
+  },
+  {
+    "id": 44,
+    "country": "US",
+    "state": "Louisiana"
+  },
+  {
+    "id": 45,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 46,
+    "country": "US",
+    "state": "Illinois"
+  },
+  {
+    "id": 47,
+    "country": "US",
+    "state": "New Jersey"
+  },
+  {
+    "id": 48,
+    "country": "US",
+    "state": "Florida"
+  },
+  {
+    "id": 49,
+    "country": "US",
+    "state": "Texas"
+  },
+  {
+    "id": 50,
+    "country": "US",
+    "state": "Indiana"
+  },
+  {
+    "id": 51,
+    "country": "US",
+    "state": "Minnesota"
+  },
+  {
+    "id": 52,
+    "country": "US",
+    "state": "Kentucky"
+  },
+  {
+    "id": 53,
+    "country": "US",
+    "state": "Texas"
+  },
+  {
+    "id": 54,
+    "country": "US",
+    "state": "Nevada"
+  },
+  {
+    "id": 55,
+    "country": "US",
+    "state": "Texas"
+  },
+  {
+    "id": 56,
+    "country": "US",
+    "state": "Kentucky"
+  },
+  {
+    "id": 57,
+    "country": "US",
+    "state": "New York"
+  },
+  {
+    "id": 58,
+    "country": "US",
+    "state": "New York"
+  },
+  {
+    "id": 59,
+    "country": "US",
+    "state": "Idaho"
+  },
+  {
+    "id": 60,
+    "country": "US",
+    "state": "Oklahoma"
+  },
+  {
+    "id": 61,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 62,
+    "country": "US",
+    "state": "Colorado"
+  },
+  {
+    "id": 63,
+    "country": "US",
+    "state": "California"
+  },
+  {
+    "id": 64,
+    "country": "US",
+    "state": "Texas"
+  },
+  {
+    "id": 65,
+    "country": "US",
+    "state": "Arizona"
+  },
+  {
+    "id": 66,
+    "country": "US",
+    "state": "Texas"
+  },
+  {
+    "id": 67,
+    "country": "US",
+    "state": "Florida"
+  },
+  {
+    "id": 68,
+    "country": "US",
+    "state": "Texas"
+  },
+  {
+    "id": 69,
+    "country": "US",
+    "state": "North Carolina"
+  },
+  {
+    "id": 70,
+    "country": "US",
+    "state": "Massachusetts"
+  },
+  {
+    "id": 71,
+    "country": "US",
+    "state": "Texas"
+  },
+  {
+    "id": 72,
+    "country": "US",
+    "state": "New Mexico"
+  },
+  {
+    "id": 73,
+    "country": "US",
+    "state": "Michigan"
+  },
+  {
+    "id": 74,
+    "country": "US",
+    "state": "Utah"
+  },
+  {
+    "id": 75,
+    "country": "US",
+    "state": "Mississippi"
+  },
+  {
+    "id": 76,
+    "country": "US",
+    "state": "Arizona"
+  },
+  {
+    "id": 77,
+    "country": "US",
+    "state": "Maryland"
+  },
+  {
+    "id": 78,
+    "country": "US",
+    "state": "Wisconsin"
+  },
+  {
+    "id": 79,
+    "country": "US",
+    "state": "Colorado"
+  },
+  {
+    "id": 80,
+    "country": "US",
+    "state": "Pennsylvania"
+  },
+  {
+    "id": 81,
+    "country": "US",
+    "state": "Washington"
+  },
+  {
+    "id": 82,
+    "country": "US",
+    "state": "Georgia"
+  },
+  {
+    "id": 83,
+    "country": "US",
+    "state": "Texas"
+  },
+  {
+    "id": 84,
+    "country": "US",
+    "state": "Kansas"
+  },
+  {
+    "id": 85,
+    "country": "US",
+    "state": "West Virginia"
+  },
+  {
+    "id": 86,
+    "country": "US",
+    "state": "Florida"
+  },
+  {
+    "id": 87,
+    "country": "US",
+    "state": "Ohio"
+  },
+  {
+    "id": 88,
+    "country": "US",
+    "state": "Virginia"
+  },
+  {
+    "id": 89,
+    "country": "US",
+    "state": "Indiana"
+  },
+  {
+    "id": 90,
+    "country": "US",
+    "state": "Indiana"
+  },
+  {
+    "id": 91,
+    "country": "US",
+    "state": "Florida"
+  },
+  {
+    "id": 92,
+    "country": "US",
+    "state": "Georgia"
+  },
+  {
+    "id": 93,
+    "country": "US",
+    "state": "Tennessee"
+  },
+  {
+    "id": 94,
+    "country": "US",
+    "state": "Texas"
+  },
+  {
+    "id": 95,
+    "country": "US",
+    "state": "Virginia"
+  },
+  {
+    "id": 96,
+    "country": "US",
+    "state": "Washington"
+  },
+  {
+    "id": 97,
+    "country": "US",
+    "state": "North Carolina"
+  },
+  {
+    "id": 98,
+    "country": "US",
+    "state": "Michigan"
+  },
+  {
+    "id": 99,
+    "country": "US",
+    "state": "Tennessee"
+  },
+  {
+    "id": 100,
+    "country": "US",
+    "state": "Tennessee"
+  }
+]

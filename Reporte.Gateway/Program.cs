@@ -1,7 +1,14 @@
+using Microsoft.AspNetCore.Mvc;
+using Reporte.Gateway;
+
+[assembly: ApiController]
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
+builder.Services.AddHostedService<GatewayBackground>();
+
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+//builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -25,5 +32,5 @@ app.MapRazorPages();
 */
 
 app.MapGet("/", () => "Hello World!");
-
+app.MapControllers();
 app.Run();
