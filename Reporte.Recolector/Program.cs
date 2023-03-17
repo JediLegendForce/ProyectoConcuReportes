@@ -24,6 +24,21 @@ app.UseAuthorization();
 app.MapRazorPages();
 */
 
+var files = Directory.GetFiles(".\\Sales", "*.csv", SearchOption.TopDirectoryOnly);
+var data = "";
+
+foreach (var file in files)
+{
+    File.ReadLines(file);
+}
+
+
+
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
+
+
+//leer todos los archivos del folder sales y enviar datos de 50 en 50 y al terminar eliminar los datos
+// usar paralelismo
+
