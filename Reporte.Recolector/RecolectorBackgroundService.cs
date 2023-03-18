@@ -13,8 +13,6 @@ namespace Reporte.Recolector
         private readonly IModel _channel;
         private readonly EventingBasicConsumer _consumer;
 
-        
-
         public RecolectorBackgroundService()
         {
 
@@ -34,7 +32,7 @@ namespace Reporte.Recolector
             while (!stoppingToken.IsCancellationRequested)
             {
                 Console.WriteLine($"Recolector en proceso de receptor {DateTimeOffset.Now}");
-                await Task.Delay(3000, stoppingToken);
+
             }
         }
 
@@ -45,19 +43,85 @@ namespace Reporte.Recolector
                 var body = content.Body.ToArray();
                 var json = Encoding.UTF8.GetString(body);
                 var transaction = JsonConvert.DeserializeObject<TransactionDTO>(json);
-                Console.WriteLine(transaction.Id);
-                foreach (var item in transaction.errors)
-                {
-                    Console.WriteLine(item);
-                }
+                await SendAsync(json);
+                await SendCSVData();
 
-                
+
             };
             _channel.BasicConsume("rec-queue", true, _consumer);
             return Task.CompletedTask;
         }
-    }
 
+        public async Task SendAsync(string msg)
+        {
+
+            var body = Encoding.UTF8.GetBytes(msg);
+            _channel.BasicPublish(string.Empty, "val-queue", null, body);
+
+        }
+
+        private async Task SendCSVData()
+        {
+            var locked = false;
+            var files = Directory.GetFiles(".\\Sales", "*.csv", SearchOption.TopDirectoryOnly);
+            List<SaleDTO> data = new List<SaleDTO>();
+
+            Parallel.ForEach(files, file =>
+            {
+                using (StreamReader sr = new StreamReader(file))
+                {
+                    sr.ReadLine();
+
+                    while (!sr.EndOfStream)
+                    {
+                        string[] line = sr.ReadLine().Split(',');
+
+                        SaleDTO temp = new SaleDTO()
+                        {
+                            username = line[0],
+                            car_id = line[1],
+                            price = line[2] + "," + line[3],
+                            vin = line[4],
+                            buyer_first_name = line[5],
+                            buyer_last_name = line[6],
+                            buyer_id = line[7],
+                            division_id = line[8]
+                        };
+
+                        while (locked) { };
+                        locked = true;
+                        data.Add(temp);
+                        locked = false;
+                    }
+
+
+
+                    //var testDeserialization = JsonConvert.DeserializeObject<List<SaleDTO>>(testSerialization);
+                }
+            });
+
+            List<SaleDTO> package = new List<SaleDTO>();
+
+            int counter = 0;
+
+            for (int i = 0; i < data.Count; i++)
+            {
+                package.Add(data[i]);
+                if (package.Count == 50 || i == data.Count - 1)
+                {
+                    string serializedPackage = JsonConvert.SerializeObject(package, Formatting.Indented);
+                    await SendAsync(serializedPackage);
+                    counter += package.Count;
+                    package = new List<SaleDTO>();
+                    
+                }
+
+            }
+
+            Console.WriteLine(counter.ToString());
+
+        }
+    }
 }
 
 

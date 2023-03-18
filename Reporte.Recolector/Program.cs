@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+using Reporte.Recolector.Dtos;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -24,15 +26,12 @@ app.UseAuthorization();
 app.MapRazorPages();
 */
 
-var files = Directory.GetFiles(".\\Sales", "*.csv", SearchOption.TopDirectoryOnly);
-var data = "";
-
-foreach (var file in files)
-{
-    File.ReadLines(file);
-}
 
 
+/*foreach(var file in new DirectoryInfo(".\\Sales").GetFiles())
+{ 
+    file.Delete();
+}*/
 
 app.MapGet("/", () => "Hello World!");
 
