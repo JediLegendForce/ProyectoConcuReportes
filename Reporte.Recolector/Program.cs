@@ -1,3 +1,5 @@
+using Newtonsoft.Json;
+using Reporte.Recolector.Dtos;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -24,6 +26,18 @@ app.UseAuthorization();
 app.MapRazorPages();
 */
 
+
+
+/*foreach(var file in new DirectoryInfo(".\\Sales").GetFiles())
+{ 
+    file.Delete();
+}*/
+
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
+
+
+//leer todos los archivos del folder sales y enviar datos de 50 en 50 y al terminar eliminar los datos
+// usar paralelismo
+
