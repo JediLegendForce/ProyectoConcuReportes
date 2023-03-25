@@ -86,6 +86,9 @@ public class ReceivingService : BackgroundService
                 }
                 
             }
+            _registers.transaction.errors = errors;
+
+            SendResponse(_registers.transaction);
         };
         _channel.BasicConsume("val_queue", true, _consumer);
         return Task.CompletedTask;
