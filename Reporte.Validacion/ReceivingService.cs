@@ -86,6 +86,9 @@ public class ReceivingService : BackgroundService
                 }
                 
             }
+            _registers.transaction.errors = errors;
+
+            SendResponse(_registers.transaction);
         };
         _channel.BasicConsume("val_queue", true, _consumer);
         return Task.CompletedTask;
@@ -111,6 +114,9 @@ public class ReceivingService : BackgroundService
                     channel.BasicPublish(string.Empty, "res_queue", null, body);
                 }
             }
+        }
+        catch (Exception ex) {
+            Console.WriteLine(ex.Message);
         }
     }
 

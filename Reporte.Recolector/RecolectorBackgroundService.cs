@@ -44,7 +44,7 @@ namespace Reporte.Recolector
                 var json = Encoding.UTF8.GetString(body);
                 var transaction = JsonConvert.DeserializeObject<TransactionDTO>(json);
                 await SendAsync(json);
-                await SendCSVData();
+                await SendCSVData(transaction);
 
 
             };
@@ -60,7 +60,7 @@ namespace Reporte.Recolector
 
         }
 
-        private async Task SendCSVData()
+        private async Task SendCSVData(TransactionDTO transactionMeta)
         {
             var locked = false;
             var files = Directory.GetFiles(".\\Sales", "*.csv", SearchOption.TopDirectoryOnly);
@@ -109,7 +109,10 @@ namespace Reporte.Recolector
                 package.Add(data[i]);
                 if (package.Count == 50 || i == data.Count - 1)
                 {
-                    string serializedPackage = JsonConvert.SerializeObject(package, Formatting.Indented);
+                    ValidacionDTO mensaje = new ValidacionDTO();
+                    mensaje.registros = package;
+                    mensaje.transaction = transactionMeta;
+                    string serializedPackage = JsonConvert.SerializeObject(mensaje, Formatting.Indented);
                     await SendAsync(serializedPackage);
                     counter += package.Count;
                     package = new List<SaleDTO>();

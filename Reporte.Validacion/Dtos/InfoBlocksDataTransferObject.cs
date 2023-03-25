@@ -2,8 +2,7 @@
 {
     public class InfoBlocksDataTransferObject
     {
-        public Guid Id { get; set; }
-
+        public TransactionDataTransferObject transaction { get; set; }
         public List<SaleDataTransferObject> Information { get; set; }
     }
 }
