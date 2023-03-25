@@ -115,6 +115,9 @@ public class ReceivingService : BackgroundService
                 }
             }
         }
+        catch (Exception ex) {
+            Console.WriteLine(ex.Message);
+        }
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
