@@ -45,8 +45,11 @@ public class ReceivingService : BackgroundService
             var sucursales_res = await this._httpClient.GetStringAsync(baseUrl + "sucursales");
             var sucursales = JsonConvert.DeserializeObject<List<SucursalDataTransferObject>>(sucursales_res);
 
-            var reg_index = 2;
+            var reg_index = _registers.offset + 2;
             var found = 0;
+            var employee404 = "";
+            var car404 = "";
+
 
             if(_registers.transaction != null)
             {
@@ -62,7 +65,8 @@ public class ReceivingService : BackgroundService
                     }
                     if (found == 0)
                     {
-                        errors.Add($"Employee at line {reg_index} not found on database");
+                        employee404 = item.username;
+                        errors.Add($"Employee {employee404} at line {reg_index} not found on database");
                     }
                     found = 0;
                     foreach (var car in cars)
@@ -75,20 +79,26 @@ public class ReceivingService : BackgroundService
                     }
                     if (found == 0)
                     {
-                        errors.Add($"Car at line {reg_index} not found on database");
+                        car404 = item.car_id;
+                        errors.Add($"Car with id {car404} at line {reg_index} not found on database");
                     }
                     if (item.vin.Length != 17)
                     {
-                        errors.Add($"VIN at line {reg_index} is not valid");
+                        errors.Add($"VIN {item.vin} at line {reg_index} is not valid");
                     }
-                    if (item.buyer_first_name == null || item.buyer_first_name.Equals("")) {
+                    if (item.buyer_first_name == null || item.buyer_first_name.Equals("")) 
+                    {
                         errors.Add($"Buyer first name at line {reg_index} is empty");
                     }
                     if (item.buyer_last_name == null || item.buyer_last_name.Equals(""))
                     {
                         errors.Add($"Buyer last name at line {reg_index} is empty");
                     }
-                
+                    if (item.buyer_id == null || item.buyer_id.Equals(""))
+                    {
+                        errors.Add($"Buyer last name at line {reg_index} is empty");
+                    }
+                    reg_index++;
                 }
                 _registers.transaction.errors = errors;
 

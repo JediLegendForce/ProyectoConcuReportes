@@ -45,10 +45,7 @@ namespace Reporte.Recolector
                 var body = content.Body.ToArray();
                 var json = Encoding.UTF8.GetString(body);
                 var transaction = JsonConvert.DeserializeObject<TransactionDTO>(json);
-                await SendAsync(json);
                 await SendCSVData(transaction);
-
-
             };
             _channel.BasicConsume("rec-queue", true, _consumer);
             return Task.CompletedTask;
@@ -105,6 +102,7 @@ namespace Reporte.Recolector
             List<SaleDTO> package = new List<SaleDTO>();
 
             int counter = 0;
+            int offset = 0;
 
             for (int i = 0; i < data.Count; i++)
             {
@@ -114,9 +112,11 @@ namespace Reporte.Recolector
                     ValidacionDTO mensaje = new ValidacionDTO();
                     mensaje.registros = package;
                     mensaje.transaction = transactionMeta;
+                    mensaje.offset = offset;
                     var serializedPackage = JsonConvert.SerializeObject(mensaje);
 
                     await SendAsync(serializedPackage);
+                    offset += 50;
                     counter += package.Count;
                     package = new List<SaleDTO>();
                     
