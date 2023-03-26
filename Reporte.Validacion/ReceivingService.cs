@@ -13,7 +13,7 @@ public class ReceivingService : BackgroundService
     private readonly IModel _channel;
     private readonly EventingBasicConsumer _consumer;
     private readonly HttpClient _httpClient;
-    private readonly string baseUrl = $"localhost:7100/events";
+    private readonly string baseUrl = $"https://localhost:7100/";
 
     public ReceivingService()
     {
@@ -25,23 +25,24 @@ public class ReceivingService : BackgroundService
         _httpClient = new HttpClient();
         _connection = factory.CreateConnection();
         _channel = _connection.CreateModel();
-        _channel.QueueDeclare("val_queue", false, false, false, null);
+        _channel.QueueDeclare("val-queue", false, false, false, null);
         _consumer = new EventingBasicConsumer(_channel);
     }
 
     public override Task StartAsync(CancellationToken cancellationToken)
     {
+        //ExecuteAsync(cancellationToken);
         _consumer.Received += async (model, content) =>
         {
             List<string> errors = new List<string>();
             var body = content.Body.ToArray();
             var json = Encoding.UTF8.GetString(body);
             var _registers = JsonConvert.DeserializeObject<InfoBlocksDataTransferObject>(json);
-            var cars_res = await this._httpClient.GetStringAsync(baseUrl + "/cars");
+            var cars_res = await this._httpClient.GetStringAsync(baseUrl + "cars");
             var cars = JsonConvert.DeserializeObject<List<CarDataTransferObject>>(cars_res);
-            var employees_res = await this._httpClient.GetStringAsync(baseUrl + "/employees");
+            var employees_res = await this._httpClient.GetStringAsync(baseUrl + "employees");
             var employees = JsonConvert.DeserializeObject<List<EmployeeDataTransferObject>>(employees_res);
-            var sucursales_res = await this._httpClient.GetStringAsync(baseUrl + "/sucursales");
+            var sucursales_res = await this._httpClient.GetStringAsync(baseUrl + "sucursales");
             var sucursales = JsonConvert.DeserializeObject<List<SucursalDataTransferObject>>(sucursales_res);
 
             var reg_index = 2;
@@ -90,7 +91,8 @@ public class ReceivingService : BackgroundService
 
             SendResponse(_registers.transaction);
         };
-        _channel.BasicConsume("val_queue", true, _consumer);
+        _channel.BasicConsume("val-queue", true, _consumer);
+
         return Task.CompletedTask;
     }
 
@@ -109,9 +111,9 @@ public class ReceivingService : BackgroundService
             {
                 using (var channel = connection.CreateModel())
                 {
-                    channel.QueueDeclare("res_queue", false, false, false, null);
+                    channel.QueueDeclare("res-queue", false, false, false, null);
                     var body = Encoding.UTF8.GetBytes(json);
-                    channel.BasicPublish(string.Empty, "res_queue", null, body);
+                    channel.BasicPublish(string.Empty, "res-queue", null, body);
                 }
             }
         }

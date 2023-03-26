@@ -32,12 +32,13 @@ namespace Reporte.Recolector
             while (!stoppingToken.IsCancellationRequested)
             {
                 Console.WriteLine($"Recolector en proceso de receptor {DateTimeOffset.Now}");
-
+                await Task.Delay(3000, stoppingToken);
             }
         }
 
         public override Task StartAsync(CancellationToken cancellationToken)
         {
+            //ExecuteAsync(cancellationToken);
             _consumer.Received += async (model, content) =>
             {
                 var body = content.Body.ToArray();

@@ -33,6 +33,7 @@ namespace Reporte.Gateway
         }
         public override Task StartAsync(CancellationToken cancellationToken)
         {
+            //ExecuteAsync(cancellationToken);
             _consumer.Received += async (model, content) =>
             {
                 var body = content.Body.ToArray();
