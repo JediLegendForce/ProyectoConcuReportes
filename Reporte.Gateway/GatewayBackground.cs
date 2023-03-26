@@ -40,8 +40,10 @@ namespace Reporte.Gateway
                 var json = Encoding.UTF8.GetString(body);
                 var transaction = JsonConvert.DeserializeObject<TransactionDTO>(json);
                 Console.WriteLine(transaction.Id);
+                Database.maintransaction.Id = transaction.Id;
                 foreach (var item in transaction.errors) 
                 {
+                    Database.maintransaction.errors.Add(item);
                     Console.WriteLine(item);
                 }
             };
