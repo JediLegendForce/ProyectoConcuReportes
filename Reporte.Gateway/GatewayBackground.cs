@@ -43,7 +43,7 @@ namespace Reporte.Gateway
                 Database.maintransaction.Id = transaction.Id;
                 foreach (var item in transaction.errors) 
                 {
-                    Database.maintransaction.errors.Add(item);
+                    Database.maintransaction.errors.Insert(Database.maintransaction.errors.Count, item);
                     Console.WriteLine(item);
                 }
             };
