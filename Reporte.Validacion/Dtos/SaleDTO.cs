@@ -1,13 +1,13 @@
 ﻿namespace Reporte.Validacion.Dtos
 {
-    public class SaleDataTransferObject
+    public class SaleDTO
     {
         public string username { get; set;  }
         public string car_id { get; set; }
-        public double price { get; set; }
+        public string price { get; set; }
         public string vin { get; set; }
-        public string buyer_FName { get; set; }
-        public string buyer_LName { get; set; }
+        public string buyer_first_name { get; set; }
+        public string buyer_last_name { get; set; }
         public string buyer_id { get; set; }    
         public string division_id { get; set; } 
     }

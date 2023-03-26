@@ -47,49 +47,53 @@ public class ReceivingService : BackgroundService
 
             var reg_index = 2;
             var found = 0;
-            foreach (var item in _registers.Information)
-            {
-                foreach (var employee in employees)
-                {
-                    if (employee.username == item.username)
-                    {
-                        found = 1;
-                    }
-                    // Default Not Found
-                }
-                if (found == 0)
-                {
-                    errors.Add($"Employee at line {reg_index} not found on database");
-                }
-                found = 0;
-                foreach (var car in cars)
-                {
-                    if (car.Id == item.car_id)
-                    {
-                        found = 1;
-                    }  
-                    // Default Not Found
-                }
-                if (found == 0)
-                {
-                    errors.Add($"Car at line {reg_index} not found on database");
-                }
-                if (item.vin.Length != 17)
-                {
-                    errors.Add($"VIN at line {reg_index} is not valid");
-                }
-                if (item.buyer_FName == null || item.buyer_FName.Equals("")) {
-                    errors.Add($"Buyer first name at line {reg_index} is empty");
-                }
-                if (item.buyer_LName == null || item.buyer_LName.Equals(""))
-                {
-                    errors.Add($"Buyer last name at line {reg_index} is empty");
-                }
-                
-            }
-            _registers.transaction.errors = errors;
 
-            SendResponse(_registers.transaction);
+            if(_registers.transaction != null)
+            {
+                foreach (var item in _registers.registros)
+                {
+                    foreach (var employee in employees)
+                    {
+                        if (employee.username == item.username)
+                        {
+                            found = 1;
+                        }
+                        // Default Not Found
+                    }
+                    if (found == 0)
+                    {
+                        errors.Add($"Employee at line {reg_index} not found on database");
+                    }
+                    found = 0;
+                    foreach (var car in cars)
+                    {
+                        if (car.Id == item.car_id)
+                        {
+                            found = 1;
+                        }  
+                        // Default Not Found
+                    }
+                    if (found == 0)
+                    {
+                        errors.Add($"Car at line {reg_index} not found on database");
+                    }
+                    if (item.vin.Length != 17)
+                    {
+                        errors.Add($"VIN at line {reg_index} is not valid");
+                    }
+                    if (item.buyer_first_name == null || item.buyer_first_name.Equals("")) {
+                        errors.Add($"Buyer first name at line {reg_index} is empty");
+                    }
+                    if (item.buyer_last_name == null || item.buyer_last_name.Equals(""))
+                    {
+                        errors.Add($"Buyer last name at line {reg_index} is empty");
+                    }
+                
+                }
+                _registers.transaction.errors = errors;
+
+                SendResponse(_registers.transaction);
+            }
         };
         _channel.BasicConsume("val-queue", true, _consumer);
 

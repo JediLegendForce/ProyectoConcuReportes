@@ -3,6 +3,6 @@
     public class InfoBlocksDataTransferObject
     {
         public TransactionDataTransferObject transaction { get; set; }
-        public List<SaleDataTransferObject> Information { get; set; }
+        public List<SaleDTO> registros { get; set; }
     }
 }

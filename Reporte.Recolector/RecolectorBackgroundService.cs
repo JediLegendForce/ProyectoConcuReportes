@@ -3,6 +3,7 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using Reporte.Recolector.Dtos;
 using System.Text;
+using System.Transactions;
 
 
 namespace Reporte.Recolector
@@ -113,7 +114,8 @@ namespace Reporte.Recolector
                     ValidacionDTO mensaje = new ValidacionDTO();
                     mensaje.registros = package;
                     mensaje.transaction = transactionMeta;
-                    string serializedPackage = JsonConvert.SerializeObject(mensaje, Formatting.Indented);
+                    var serializedPackage = JsonConvert.SerializeObject(mensaje);
+
                     await SendAsync(serializedPackage);
                     counter += package.Count;
                     package = new List<SaleDTO>();
