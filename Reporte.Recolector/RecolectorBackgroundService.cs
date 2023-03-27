@@ -84,7 +84,7 @@ namespace Reporte.Recolector
                             buyer_first_name = line[5],
                             buyer_last_name = line[6],
                             buyer_id = line[7],
-                            division_id = line[8]
+                            division_id = line[8].Equals("") ? 0 : int.Parse(line[8])
                         };
 
                         while (locked) { };
@@ -126,10 +126,10 @@ namespace Reporte.Recolector
 
             Console.WriteLine(counter.ToString());
 
-            foreach (var file in new DirectoryInfo(".\\Sales").GetFiles())
+            /*foreach (var file in new DirectoryInfo(".\\Sales").GetFiles())
             {
                 file.Delete();
-            }
+            }*/
 
         }
     }

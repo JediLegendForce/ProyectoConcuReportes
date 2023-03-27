@@ -9,5 +9,7 @@
         public string Model { get; set; }
         
         public int Year { get; set; }
+
+        public int Division_id { get; set; }
     }
 }

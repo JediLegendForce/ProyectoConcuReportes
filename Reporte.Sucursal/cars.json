@@ -3,600 +3,700 @@
     "id": "901-mm-29",
     "make": "Mercury",
     "model": "Grand Marquis",
-    "year": 1991
+    "year": 1991,
+    "division_id": 87
   },
   {
     "id": "998-wb-31",
     "make": "Mitsubishi",
     "model": "Chariot",
-    "year": 1996
+    "year": 1996,
+    "division_id": 40
   },
   {
     "id": "036-bj-19",
     "make": "Mitsubishi",
     "model": "Excel",
-    "year": 1987
+    "year": 1987,
+    "division_id": 85
   },
   {
     "id": "965-to-18",
     "make": "Hyundai",
     "model": "Tiburon",
-    "year": 1997
+    "year": 1997,
+    "division_id": 21
   },
   {
     "id": "397-wa-89",
     "make": "Volkswagen",
     "model": "Cabriolet",
-    "year": 1987
+    "year": 1987,
+    "division_id": 59
   },
   {
     "id": "567-du-93",
     "make": "Daewoo",
     "model": "Lanos",
-    "year": 2002
+    "year": 2002,
+    "division_id": 66
   },
   {
     "id": "906-ck-23",
     "make": "Oldsmobile",
     "model": 88,
-    "year": 1996
+    "year": 1996,
+    "division_id": 96
   },
   {
     "id": "090-nw-76",
     "make": "Toyota",
     "model": "FJ Cruiser",
-    "year": 2009
+    "year": 2009,
+    "division_id": 82
   },
   {
     "id": "525-jl-03",
     "make": "Geo",
     "model": "Metro",
-    "year": 1997
+    "year": 1997,
+    "division_id": 7
   },
   {
     "id": "629-qp-07",
     "make": "Plymouth",
     "model": "Fury",
-    "year": 1964
+    "year": 1964,
+    "division_id": 18
   },
   {
     "id": "363-qb-15",
     "make": "Honda",
     "model": "Element",
-    "year": 2008
+    "year": 2008,
+    "division_id": 79
   },
   {
     "id": "133-uu-88",
     "make": "Acura",
     "model": "Integra",
-    "year": 1992
+    "year": 1992,
+    "division_id": 70
   },
   {
     "id": "944-er-52",
     "make": "GMC",
     "model": "Sierra 2500",
-    "year": 2004
+    "year": 2004,
+    "division_id": 74
   },
   {
     "id": "765-ut-36",
     "make": "Ford",
     "model": "Contour",
-    "year": 1998
+    "year": 1998,
+    "division_id": 16
   },
   {
     "id": "099-fq-73",
     "make": "BMW",
     "model": "6 Series",
-    "year": 2005
+    "year": 2005,
+    "division_id": 10
   },
   {
     "id": "824-ps-33",
     "make": "Nissan",
     "model": "Xterra",
-    "year": 2005
+    "year": 2005,
+    "division_id": 92
   },
   {
     "id": "926-hr-35",
     "make": "GMC",
     "model": 1500,
-    "year": 1992
+    "year": 1992,
+    "division_id": 14
   },
   {
     "id": "855-bd-51",
     "make": "Honda",
     "model": "Accord",
-    "year": 2007
+    "year": 2007,
+    "division_id": 86
   },
   {
     "id": "045-ph-09",
     "make": "GMC",
     "model": "Sierra",
-    "year": 2008
+    "year": 2008,
+    "division_id": 39
   },
   {
     "id": "511-ex-46",
     "make": "Lincoln",
     "model": "Navigator L",
-    "year": 2008
+    "year": 2008,
+    "division_id": 51
   },
   {
     "id": "777-lf-61",
     "make": "Chevrolet",
     "model": "Caprice",
-    "year": 1983
+    "year": 1983,
+    "division_id": 5
   },
   {
     "id": "222-hc-25",
     "make": "Mitsubishi",
     "model": "Expo",
-    "year": 1994
+    "year": 1994,
+    "division_id": 99
   },
   {
     "id": "810-mn-42",
     "make": "Chevrolet",
     "model": "TrailBlazer",
-    "year": 2003
+    "year": 2003,
+    "division_id": 46
   },
   {
     "id": "781-kt-18",
     "make": "GMC",
     "model": "Yukon XL 1500",
-    "year": 2013
+    "year": 2013,
+    "division_id": 22
   },
   {
     "id": "101-ej-04",
     "make": "Volvo",
     "model": "S70",
-    "year": 2000
+    "year": 2000,
+    "division_id": 5
   },
   {
     "id": "622-er-98",
     "make": "Bentley",
     "model": "Azure",
-    "year": 2007
+    "year": 2007,
+    "division_id": 73
   },
   {
     "id": "454-lt-36",
     "make": "Ford",
     "model": "Crown Victoria",
-    "year": 1997
+    "year": 1997,
+    "division_id": 7
   },
   {
     "id": "945-um-59",
     "make": "Hyundai",
     "model": "Scoupe",
-    "year": 1993
+    "year": 1993,
+    "division_id": 23
   },
   {
     "id": "836-hn-74",
     "make": "Mitsubishi",
     "model": "Eclipse",
-    "year": 2005
+    "year": 2005,
+    "division_id": 26
   },
   {
     "id": "889-gt-16",
     "make": "Dodge",
     "model": "Caravan",
-    "year": 1998
+    "year": 1998,
+    "division_id": 28
   },
   {
     "id": "853-mb-23",
     "make": "GMC",
     "model": "Envoy",
-    "year": 2006
+    "year": 2006,
+    "division_id": 59
   },
   {
     "id": "118-ze-46",
     "make": "Lincoln",
     "model": "MKS",
-    "year": 2009
+    "year": 2009,
+    "division_id": 73
   },
   {
     "id": "123-hg-47",
     "make": "Pontiac",
     "model": "Grand Prix",
-    "year": 1974
+    "year": 1974,
+    "division_id": 58
   },
   {
     "id": "062-rg-14",
     "make": "Honda",
     "model": "CR-V",
-    "year": 2006
+    "year": 2006,
+    "division_id": 84
   },
   {
     "id": "358-xy-38",
     "make": "Toyota",
     "model": "Land Cruiser",
-    "year": 2005
+    "year": 2005,
+    "division_id": 76
   },
   {
     "id": "128-wq-95",
     "make": "GMC",
     "model": "Savana 1500",
-    "year": 2003
+    "year": 2003,
+    "division_id": 43
   },
   {
     "id": "578-hu-83",
     "make": "Jeep",
     "model": "Cherokee",
-    "year": 1994
+    "year": 1994,
+    "division_id": 88
   },
   {
     "id": "247-ol-50",
     "make": "GMC",
     "model": "Savana 3500",
-    "year": 1996
+    "year": 1996,
+    "division_id": 60
   },
   {
     "id": "687-yv-37",
     "make": "Isuzu",
     "model": "Trooper",
-    "year": 1993
+    "year": 1993,
+    "division_id": 92
   },
   {
     "id": "817-da-72",
     "make": "GMC",
     "model": "Yukon Denali",
-    "year": 2006
+    "year": 2006,
+    "division_id": 11
   },
   {
     "id": "894-yt-85",
     "make": "Infiniti",
     "model": "G",
-    "year": 2005
+    "year": 2005,
+    "division_id": 46
   },
   {
     "id": "813-zj-22",
     "make": "Nissan",
     "model": "Quest",
-    "year": 2004
+    "year": 2004,
+    "division_id": 90
   },
   {
     "id": "158-mo-45",
     "make": "GMC",
     "model": "Vandura 1500",
-    "year": 1992
+    "year": 1992,
+    "division_id": 89
   },
   {
     "id": "897-xm-80",
     "make": "Ford",
     "model": "Club Wagon",
-    "year": 1998
+    "year": 1998,
+    "division_id": 73
   },
   {
     "id": "503-jx-09",
     "make": "Lotus",
     "model": "Esprit",
-    "year": 1995
+    "year": 1995,
+    "division_id": 35
   },
   {
     "id": "308-zj-02",
     "make": "Lincoln",
     "model": "Navigator",
-    "year": 2001
+    "year": 2001,
+    "division_id": 9
   },
   {
     "id": "181-cz-60",
     "make": "Jeep",
     "model": "Wrangler",
-    "year": 1997
+    "year": 1997,
+    "division_id": 15
   },
   {
     "id": "494-ou-21",
     "make": "Maybach",
     "model": 62,
-    "year": 2007
+    "year": 2007,
+    "division_id": 88
   },
   {
     "id": "256-ot-56",
     "make": "Volkswagen",
     "model": "CC",
-    "year": 2010
+    "year": 2010,
+    "division_id": 46
   },
   {
     "id": "455-lm-00",
     "make": "Pontiac",
     "model": "LeMans",
-    "year": 1991
+    "year": 1991,
+    "division_id": 22
   },
   {
     "id": "983-ti-53",
     "make": "Renault",
     "model": "Alliance",
-    "year": 1983
+    "year": 1983,
+    "division_id": 65
   },
   {
     "id": "401-xi-19",
     "make": "Ford",
     "model": "Mustang",
-    "year": 1987
+    "year": 1987,
+    "division_id": 32
   },
   {
     "id": "984-kp-26",
     "make": "Lexus",
     "model": "IS F",
-    "year": 2009
+    "year": 2009,
+    "division_id": 72
   },
   {
     "id": "950-fu-69",
     "make": "Ford",
     "model": "Ranger",
-    "year": 2008
+    "year": 2008,
+    "division_id": 9
   },
   {
     "id": "083-ew-66",
     "make": "Toyota",
     "model": "T100",
-    "year": 1997
+    "year": 1997,
+    "division_id": 35
   },
   {
     "id": "265-dm-98",
     "make": "Chevrolet",
     "model": "S10 Blazer",
-    "year": 1992
+    "year": 1992,
+    "division_id": 10
   },
   {
     "id": "273-nn-05",
     "make": "Toyota",
     "model": "Matrix",
-    "year": 2007
+    "year": 2007,
+    "division_id": 55
   },
   {
     "id": "972-pv-22",
     "make": "Mercedes-Benz",
     "model": "SL-Class",
-    "year": 1994
+    "year": 1994,
+    "division_id": 77
   },
   {
     "id": "735-zj-44",
     "make": "BMW",
     "model": 745,
-    "year": 2004
+    "year": 2004,
+    "division_id": 78
   },
   {
     "id": "016-qs-39",
     "make": "Ford",
     "model": "Bronco",
-    "year": 1986
+    "year": 1986,
+    "division_id": 22
   },
   {
     "id": "866-yi-23",
     "make": "Lincoln",
     "model": "Navigator",
-    "year": 2002
+    "year": 2002,
+    "division_id": 47
   },
   {
     "id": "140-pp-25",
     "make": "GMC",
     "model": 1500,
-    "year": 1996
+    "year": 1996,
+    "division_id": 0
   },
   {
     "id": "978-oe-04",
     "make": "Chevrolet",
     "model": "SSR",
-    "year": 2004
+    "year": 2004,
+    "division_id": 78
   },
   {
     "id": "598-of-73",
     "make": "Pontiac",
     "model": "Sunfire",
-    "year": 2004
+    "year": 2004,
+    "division_id": 38
   },
   {
     "id": "923-ve-34",
     "make": "Saab",
     "model": 900,
-    "year": 1987
+    "year": 1987,
+    "division_id": 88
   },
   {
     "id": "233-yd-98",
     "make": "Lotus",
     "model": "Esprit",
-    "year": 2001
+    "year": 2001,
+    "division_id": 65
   },
   {
     "id": "894-yk-07",
     "make": "Volkswagen",
     "model": "Passat",
-    "year": 1999
+    "year": 1999,
+    "division_id": 87
   },
   {
     "id": "277-cg-82",
     "make": "Ford",
     "model": "F-Series",
-    "year": 2004
+    "year": 2004,
+    "division_id": 2
   },
   {
     "id": "111-gy-51",
     "make": "Mazda",
     "model": "MX-5",
-    "year": 1996
+    "year": 1996,
+    "division_id": 29
   },
   {
     "id": "631-oc-14",
     "make": "Ford",
     "model": "Thunderbird",
-    "year": 2006
+    "year": 2006,
+    "division_id": 69
   },
   {
     "id": "278-vi-52",
     "make": "Ford",
     "model": "F250",
-    "year": 1993
+    "year": 1993,
+    "division_id": 9
   },
   {
     "id": "384-qs-23",
     "make": "Chevrolet",
     "model": "Impala SS",
-    "year": 1995
+    "year": 1995,
+    "division_id": 11
   },
   {
     "id": "845-wh-50",
     "make": "Honda",
     "model": "Fit",
-    "year": 2009
+    "year": 2009,
+    "division_id": 61
   },
   {
     "id": "991-cz-26",
     "make": "Mitsubishi",
     "model": "Diamante",
-    "year": 2004
+    "year": 2004,
+    "division_id": 23
   },
   {
     "id": "523-ne-81",
     "make": "Nissan",
     "model": "Pathfinder",
-    "year": 2006
+    "year": 2006,
+    "division_id": 53
   },
   {
     "id": "910-sq-26",
     "make": "Volkswagen",
     "model": "Jetta III",
-    "year": 1993
+    "year": 1993,
+    "division_id": 58
   },
   {
     "id": "697-tc-37",
     "make": "Plymouth",
     "model": "Laser",
-    "year": 1994
+    "year": 1994,
+    "division_id": 14
   },
   {
     "id": "328-tg-34",
     "make": "Saab",
     "model": "9-7X",
-    "year": 2009
+    "year": 2009,
+    "division_id": 19
   },
   {
     "id": "740-hk-58",
     "make": "Lamborghini",
     "model": "Murciélago",
-    "year": 2003
+    "year": 2003,
+    "division_id": 80
   },
   {
     "id": "169-hu-42",
     "make": "Subaru",
     "model": "Tribeca",
-    "year": 2007
+    "year": 2007,
+    "division_id": 89
   },
   {
     "id": "698-wl-51",
     "make": "Jeep",
     "model": "Wrangler",
-    "year": 1992
+    "year": 1992,
+    "division_id": 99
   },
   {
     "id": "511-gw-39",
     "make": "Acura",
     "model": "TL",
-    "year": 1996
+    "year": 1996,
+    "division_id": 72
   },
   {
     "id": "633-xo-93",
     "make": "Buick",
     "model": "Century",
-    "year": 2002
+    "year": 2002,
+    "division_id": 42
   },
   {
     "id": "410-oz-10",
     "make": "BMW",
     "model": "Z3",
-    "year": 1999
+    "year": 1999,
+    "division_id": 60
   },
   {
     "id": "277-gn-12",
     "make": "Lexus",
     "model": "IS-F",
-    "year": 2009
+    "year": 2009,
+    "division_id": 99
   },
   {
     "id": "836-wp-64",
     "make": "BMW",
     "model": "5 Series",
-    "year": 2009
+    "year": 2009,
+    "division_id": 37
   },
   {
     "id": "528-ql-33",
     "make": "Nissan",
     "model": "Pathfinder",
-    "year": 1996
+    "year": 1996,
+    "division_id": 55
   },
   {
     "id": "795-db-44",
     "make": "Isuzu",
     "model": "Hombre",
-    "year": 1997
+    "year": 1997,
+    "division_id": 1
   },
   {
     "id": "234-xh-86",
     "make": "Dodge",
     "model": "Sprinter",
-    "year": 2006
+    "year": 2006,
+    "division_id": 34
   },
   {
     "id": "256-el-49",
     "make": "GMC",
     "model": "Vandura 1500",
-    "year": 1994
+    "year": 1994,
+    "division_id": 78
   },
   {
     "id": "988-vf-32",
     "make": "Hyundai",
     "model": "XG350",
-    "year": 2004
+    "year": 2004,
+    "division_id": 91
   },
   {
     "id": "798-lw-53",
     "make": "Mercedes-Benz",
     "model": "SLS AMG",
-    "year": 2012
+    "year": 2012,
+    "division_id": 17
   },
   {
     "id": "756-bz-34",
     "make": "Chrysler",
     "model": "Crossfire Roadster",
-    "year": 2006
+    "year": 2006,
+    "division_id": 16
   },
   {
     "id": "929-ie-55",
     "make": "Audi",
     "model": "Q7",
-    "year": 2011
+    "year": 2011,
+    "division_id": 21
   },
   {
     "id": "887-dl-15",
     "make": "Nissan",
     "model": "Sentra",
-    "year": 2006
+    "year": 2006,
+    "division_id": 64
   },
   {
     "id": "637-dv-64",
     "make": "Pontiac",
     "model": "Grand Prix",
-    "year": 1970
+    "year": 1970,
+    "division_id": 88
   },
   {
     "id": "755-eg-83",
     "make": "Audi",
     "model": 200,
-    "year": 1990
+    "year": 1990,
+    "division_id": 46
   },
   {
     "id": "548-ui-94",
     "make": "Porsche",
     "model": 968,
-    "year": 1994
+    "year": 1994,
+    "division_id": 25
   },
   {
     "id": "535-uy-85",
     "make": "Isuzu",
     "model": "Hombre",
-    "year": 1999
+    "year": 1999,
+    "division_id": 74
   },
   {
     "id": "366-zp-03",
     "make": "Honda",
     "model": "Ridgeline",
-    "year": 2012
+    "year": 2012,
+    "division_id": 99
   }
 ]

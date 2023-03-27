@@ -55,15 +55,22 @@ public class ReceivingService : BackgroundService
             {
                 foreach (var item in _registers.registros)
                 {
-                    var employee_res = await this._httpClient.GetStringAsync($"{baseUrl}/employees/{item.username}");
-                    if (employee_res != null)
+                    var employee_res = "";
+                    try
+                    {
+                        employee_res = await this._httpClient.GetStringAsync($"{baseUrl}/employees/{item.username}");
+                    } catch(Exception ex)
+                    {
+
+                    }
+                    if (employee_res != "")
                     {
                         found = 1;
-                    }
-                    var employee = JsonConvert.DeserializeObject<EmployeeDataTransferObject>(employees_res);
-                    if (employee.Division_id != item.division_id)
-                    {
-                        errors.Add($"Employee {item.username} at line {reg_index} does not exist in division {item.division_id}");
+                        var employee = JsonConvert.DeserializeObject<EmployeeDataTransferObject>(employees_res);
+                        if (employee.Division_id != item.division_id)
+                        {
+                            errors.Add($"Employee {item.username} at line {reg_index} does not exist in division {item.division_id}");
+                        }
                     }
                     /*foreach (var employee in employees)
                     {
@@ -79,15 +86,23 @@ public class ReceivingService : BackgroundService
                         errors.Add($"Employee {employee404} at line {reg_index} not found on database");
                     }
                     found = 0;
-                    var car_res = await this._httpClient.GetStringAsync($"{baseUrl}/cars/{item.car_id}");
-                    if (car_res != null)
+
+                    var car_res = "";
+                    try
+                    {
+                        car_res = await this._httpClient.GetStringAsync($"{baseUrl}/cars/{item.car_id}");
+                    } catch (Exception ex)
+                    {
+
+                    }
+                    if (car_res != "")
                     {
                         found = 1;
-                    }
-                    var car = JsonConvert.DeserializeObject<CarDataTransferObject>(car_res);
-                    if (car.Division_id != item.division_id)
-                    {
-                        errors.Add($"Car with id {item.car_id} at line {reg_index} does not exist in division {item.division_id}");
+                        var car = JsonConvert.DeserializeObject<CarDataTransferObject>(car_res);
+                        if (car.Division_id != item.division_id)
+                        {
+                            errors.Add($"Car with id {item.car_id} at line {reg_index} does not exist in division {item.division_id}");
+                        }
                     }
                     /*foreach (var car in cars)
                     {
@@ -102,6 +117,8 @@ public class ReceivingService : BackgroundService
                         car404 = item.car_id;
                         errors.Add($"Car with id {car404} at line {reg_index} not found on database");
                     }
+
+
                     if (item.vin.Length != 17)
                     {
                         errors.Add($"VIN {item.vin} at line {reg_index} is not valid");
