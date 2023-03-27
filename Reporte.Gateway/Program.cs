@@ -31,6 +31,7 @@ app.UseAuthorization();
 app.MapRazorPages();
 */
 
+Database.maintransaction.errors = new List<string>();
 app.MapGet("/", () => "Hello World!");
 app.MapControllers();
 app.Run();

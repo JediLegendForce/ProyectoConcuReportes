@@ -19,18 +19,6 @@ namespace Reporte.Gateway.Controllers
                 errors = new List<string>()
             };
 
-            /*
-            var transaction = new TransactionDTO
-            {
-                Id = Guid.NewGuid(),
-                errors = new List<string>
-                {
-                    "ERROR",
-                    "ERROR 2",
-                    "ERROR 3"
-                }
-            };*/
-
             try
             {
                 var json = JsonConvert.SerializeObject(transaction);
@@ -58,6 +46,19 @@ namespace Reporte.Gateway.Controllers
             {
 
                 return BadRequest(e.Message);
+            }
+        }
+
+        [HttpGet("/reports/{transactionid}")]
+        public ActionResult<TransactionDTO> GetTransaction(Guid transactionid) 
+        {
+            if(transactionid == Database.maintransaction.Id) 
+            {
+                return Ok(Database.maintransaction);
+            }
+            else
+            {
+                return NotFound("Transaccion no existente o no coincide con el id ingresado");
             }
         }
     }
