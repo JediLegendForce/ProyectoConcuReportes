@@ -55,29 +55,38 @@ public class ReceivingService : BackgroundService
             {
                 foreach (var item in _registers.registros)
                 {
-
-                    foreach (var employee in employees)
+                    var employee_res = await this._httpClient.GetStringAsync($"{baseUrl}/employees/{item.username}");
+                    if (employee_res != null)
                     {
-                        if (employee.username == item.username)
-                        {
-                            found = 1;
-                        }
-                        // Default Not Found
+                        found = 1;
                     }
+                    //foreach (var employee in employees)
+                    //{
+                    //    if (employee.username == item.username)
+                    //    {
+                    //        found = 1;
+                    //    }
+                    //    // Default Not Found
+                    //}
                     if (found == 0)
                     {
                         employee404 = item.username;
                         errors.Add($"Employee {employee404} at line {reg_index} not found on database");
                     }
                     found = 0;
-                    foreach (var car in cars)
+                    var car_res = await this._httpClient.GetStringAsync($"{baseUrl}/cars/{item.car_id}");
+                    if (car_res != null)
                     {
-                        if (car.Id == item.car_id)
-                        {
-                            found = 1;
-                        }  
-                        // Default Not Found
+                        found = 1;
                     }
+                    //foreach (var car in cars)
+                    //{
+                    //    if (car.Id == item.car_id)
+                    //    {
+                    //        found = 1;
+                    //    }  
+                    //    // Default Not Found
+                    //}
                     if (found == 0)
                     {
                         car404 = item.car_id;
