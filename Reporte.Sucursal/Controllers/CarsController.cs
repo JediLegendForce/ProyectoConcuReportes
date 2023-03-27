@@ -26,6 +26,10 @@ namespace Reporte.Sucursal.Controllers
         public async Task<IActionResult> GetCar(string carId)
         {
             var result = await _carService.GetAsync(carId);
+            if (result == null)
+            {
+                return NotFound();
+            }
             return Ok(result);
         }
     }

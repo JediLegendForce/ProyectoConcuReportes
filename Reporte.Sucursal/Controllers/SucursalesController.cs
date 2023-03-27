@@ -25,6 +25,10 @@ namespace Reporte.Sucursal.Controllers
         public async Task<IActionResult> GetEmployee(int sucursalId)
         {
             var result = await _sucursalesService.GetAsync(sucursalId);
+            if (result == null)
+            {
+                return NotFound();
+            }
             return Ok(result);
         }
     }

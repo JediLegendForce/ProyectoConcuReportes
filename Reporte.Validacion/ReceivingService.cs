@@ -55,6 +55,7 @@ public class ReceivingService : BackgroundService
             {
                 foreach (var item in _registers.registros)
                 {
+
                     foreach (var employee in employees)
                     {
                         if (employee.username == item.username)
