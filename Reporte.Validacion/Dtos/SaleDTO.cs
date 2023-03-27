@@ -9,6 +9,6 @@
         public string buyer_first_name { get; set; }
         public string buyer_last_name { get; set; }
         public string buyer_id { get; set; }    
-        public string division_id { get; set; } 
+        public int division_id { get; set; } 
     }
 }

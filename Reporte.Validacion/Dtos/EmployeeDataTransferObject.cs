@@ -9,4 +9,6 @@ public class EmployeeDataTransferObject
     public string last_name { get; set;}
 
     public string Id { get; set; }
+
+    public int Division_id { get; set; }
 }

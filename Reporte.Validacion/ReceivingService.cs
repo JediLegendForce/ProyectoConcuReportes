@@ -60,14 +60,19 @@ public class ReceivingService : BackgroundService
                     {
                         found = 1;
                     }
-                    //foreach (var employee in employees)
-                    //{
-                    //    if (employee.username == item.username)
-                    //    {
-                    //        found = 1;
-                    //    }
-                    //    // Default Not Found
-                    //}
+                    var employee = JsonConvert.DeserializeObject<EmployeeDataTransferObject>(employees_res);
+                    if (employee.Division_id != item.division_id)
+                    {
+                        errors.Add($"Employee {item.username} at line {reg_index} does not exist in division {item.division_id}");
+                    }
+                    /*foreach (var employee in employees)
+                    {
+                        if (employee.username == item.username)
+                        {
+                            found = 1;
+                        }
+                        // Default Not Found
+                    }*/
                     if (found == 0)
                     {
                         employee404 = item.username;
@@ -79,14 +84,19 @@ public class ReceivingService : BackgroundService
                     {
                         found = 1;
                     }
-                    //foreach (var car in cars)
-                    //{
-                    //    if (car.Id == item.car_id)
-                    //    {
-                    //        found = 1;
-                    //    }  
-                    //    // Default Not Found
-                    //}
+                    var car = JsonConvert.DeserializeObject<CarDataTransferObject>(car_res);
+                    if (car.Division_id != item.division_id)
+                    {
+                        errors.Add($"Car with id {item.car_id} at line {reg_index} does not exist in division {item.division_id}");
+                    }
+                    /*foreach (var car in cars)
+                    {
+                        if (car.Id == item.car_id)
+                        {
+                            found = 1;
+                        }  
+                        // Default Not Found
+                    }*/
                     if (found == 0)
                     {
                         car404 = item.car_id;
