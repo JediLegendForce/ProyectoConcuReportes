@@ -126,10 +126,10 @@ namespace Reporte.Recolector
 
             Console.WriteLine(counter.ToString());
 
-            /*foreach (var file in new DirectoryInfo(".\\Sales").GetFiles())
+            foreach (var file in new DirectoryInfo(".\\Sales").GetFiles())
             {
                 file.Delete();
-            }*/
+            }
 
         }
     }
